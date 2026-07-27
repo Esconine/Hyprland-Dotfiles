@@ -14,7 +14,7 @@ local screenshotRegion     = "hyprshot -m region -o ~/Pictures/Screenshots"
 local appCenter            = "bazaar"
 local clipboard            = "cliphist list | rofi -dmenu -p 'Clipboard' -theme-str 'window { location: northeast; anchor: northeast; y-offset: 20px; x-offset: -10px;}' | cliphist decode | wl-copy"
 local screenLock           = "hyprlock"
-local emoji                = "rofimoji"
+local emoji                = "rofimoji --action copy"
 
 
 ---------------------
