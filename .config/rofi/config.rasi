@@ -1,0 +1,76 @@
+configuration {
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+}
+
+* {
+    bg:          #161923;
+    bg-alt:      #212634;
+    txt:         #9fa6b4;
+    txt-selected:#161923;
+    accent:      #cd7a64;
+
+    font: "JetBrainsMono Nerd Font 14";
+    background-color: transparent;
+}
+
+window {
+    width:            20%;
+    background-color: @bg;
+    padding:          16px;
+    border-radius:    24px;
+    border:           0px;
+}
+
+mainbox {
+    children:         [ listview, inputbar ];
+    background-color: @bg;
+    spacing:          16px;
+}
+
+listview {
+    lines:            4;
+    background-color: @bg;
+    spacing:          4px;
+    scrollbar:        false;
+    fixed-height:     true;
+    border:           0px;
+    dash-style:       none;
+}
+
+element {
+    padding:          8px 16px;
+    background-color: @bg;
+    border-radius:    16px;
+    text-color:       @txt;
+}
+
+element-icon {
+    size:             24px;
+    margin:           0px 12px 0px 0px;
+}
+
+element-text {
+    text-color:       inherit;
+    vertical-align:   0.5;
+}
+
+element selected {
+    background-color: @accent;
+    text-color:       @txt-selected;
+}
+
+inputbar {
+    children:         [ entry ];
+    background-color: @bg-alt;
+    border-radius:    16px;
+    padding:          10px 16px;
+}
+
+entry {
+    placeholder:      "Search...";
+    placeholder-color:#525867;
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+    text-color:       @txt;
+}
