@@ -1,5 +1,5 @@
 #!/bin/bash
-CONFIG_DIRS=("fastfetch" "hypr" "waybar" "kitty" "wlogout")
+CONFIG_DIRS=("fastfetch" "hypr" "waybar" "kitty" "rofi" "wlogout")
 
 SOURCE_DIR="$HOME/Hyprland-Dotfiles/.config"
 TARGET_DIR="$HOME/.config"
