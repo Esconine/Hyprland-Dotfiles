@@ -27,7 +27,7 @@ My minimalistic hyprland dotfiles. I hope you will like it ❤️
 Install all the dependencies by running in the terminal:
 
 ```
-sudo pacman -S hyprland kitty dolphin code chromium flatpak bazaar rofi waybar hyprshot dunst pavucontrol awww wl-clipboard cliphist hyprlock && flatpak install flathub io.missioncenter.MissionCenter && yay -S wlogout bibata-cursor-theme-bin
+sudo pacman -S hyprland xdg-desktop-portal xdg-desktop-portal-hyprland polkit-kde-agent kitty dolphin code chromium flatpak bazaar rofi waybar hyprshot dunst pavucontrol awww wl-clipboard cliphist hyprlock && flatpak install flathub io.missioncenter.MissionCenter && yay -S wlogout bibata-cursor-theme-bin
 ```
 
 Then install my dotfiles by running in the terminal:
