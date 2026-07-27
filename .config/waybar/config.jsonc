@@ -40,7 +40,7 @@
     ],
     "custom/rofi": {
         "format": "\uf0be",
-        "on-click": "rofi -show drun -theme-str 'window { location: north; anchor: north; y-offset: 10px; }'",
+        "on-click": "rofi -show drun -theme-str 'window { location: north; anchor: north; y-offset: 20px; }'",
         "tooltip": false
     },
     "ext/workspaces": {
@@ -67,7 +67,7 @@
     },
     "custom/clipboard": {
         "format": "\uf07f",
-        "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' -theme-str 'window { location: northeast; anchor: northeast; y-offset: 10px; x-offset: -10px;}' | cliphist decode | wl-copy",
+        "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' -theme-str 'window { location: northeast; anchor: northeast; y-offset: 20px; x-offset: -10px;}' | cliphist decode | wl-copy",
         "on-click-right": "cliphist wipe && notify-send 'Clipboard' 'The clipboard is cleared' -i edit-clear",
         "tooltip": true,
         "tooltip-format": "Left Click - Open the clipboard\nRight Click - Clear the clipboard"
