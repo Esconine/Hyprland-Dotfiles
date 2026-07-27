@@ -14,6 +14,7 @@ local screenshotRegion     = "hyprshot -m region -o ~/Pictures/Screenshots"
 local appCenter            = "bazaar"
 local clipboard            = "cliphist list | rofi -dmenu -p 'Clipboard' -theme-str 'window { location: northeast; anchor: northeast; y-offset: 20px; x-offset: -10px;}' | cliphist decode | wl-copy"
 local screenLock           = "hyprlock"
+local emoji                = "rofimoji"
 
 
 ---------------------
@@ -31,6 +32,7 @@ hl.bind("SUPER + B", hl.dsp.exec_cmd(browser))
 hl.bind("SUPER + A", hl.dsp.exec_cmd(appCenter))
 hl.bind("SUPER + V", hl.dsp.exec_cmd(clipboard))
 hl.bind("SUPER + L", hl.dsp.exec_cmd(screenLock))
+hl.bind("SUPER + Period", hl.dsp.exec_cmd(emoji))
 hl.bind("SUPER + Escape", hl.dsp.exec_cmd(missionCenter))
 
 hl.bind("Print", hl.dsp.exec_cmd(screenshotMonitor))
