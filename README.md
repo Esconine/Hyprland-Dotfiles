@@ -1,6 +1,15 @@
 # Hyprland-Dotfiles
 My minimalistic hyprland dotfiles. I hope you will like it ❤️
 
+<div align="center"> 
+
+![Static Badge](https://img.shields.io/badge/Hyprland-white?style=for-the-badge&logo=hyprland&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
+![Static Badge](https://img.shields.io/badge/Lua-white?style=for-the-badge&logo=lua&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
+![Static Badge](https://img.shields.io/badge/CSS-white?style=for-the-badge&logo=css&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb)
+![Static Badge](https://img.shields.io/badge/Arch%20Linux-white?style=for-the-badge&logo=archlinux&logoColor=D9E0EE&labelColor=1E202B&color=8ad7eb&link=https%3A%2F%2Farchlinux.org%2F)
+
+</div>
+
 > [!IMPORTANT]
 > Works only on Arch Linux and Arch-based distributions (CachyOS, EndeavourOS, Manjaro, Garuda, Artix and etc)
 
