@@ -34,4 +34,7 @@ Then install my dotfiles by running in the terminal:
 
 ```
 git clone https://github.com/Esconine/Hyprland-Dotfiles.git
+cd Hyprland-Dotfiles
+chmod +x install.sh
+./install.sh
 ```
