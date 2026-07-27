@@ -1,0 +1,156 @@
+.modules-left {
+    margin-left: 3px;
+}
+
+.modules-right {
+    margin-right: 3px;
+}
+
+#custom-rofi {
+    color: #007AFF;
+    background: #212634;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    margin: 4px 3px;
+    font-size: 26px;
+    padding: 1px 15px 1px 10px;
+}
+
+#custom-rofi:hover {
+    background: #f0f0f0;
+    color: #007AFF;
+}
+
+#custom-clipboard {
+color: #f0f0f0;
+background: #212634;
+background-color: rgba(255, 255, 255, 0.06);
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.03);
+margin: 4px 3px;
+font-size: 26px;
+padding: 1px 15px 1px 12px;
+}
+
+#custom-clipboard:hover {
+background: #f0f0f0;
+color: #161923;
+}
+
+#custom-power {
+color: #f0f0f0;
+background: #212634;
+background-color: rgba(255, 255, 255, 0.06);
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.03);
+margin: 4px 3px;
+font-size: 26px;
+padding: 1px 18px 1px 12px;
+}
+
+#custom-power:hover {
+background: #f0f0f0;
+color: #161923;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
+    font-size: 14px;
+    color: #c0caf5;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+padding: 0 10px;
+margin: 4px 2px;
+background-color: transparent;
+color: #565f89;
+border-radius: 8px;
+border: none;
+font-weight: bold;
+transition: all 0.2s ease;
+}
+
+#workspaces button:hover {
+background-color: rgba(255, 255, 255, 0.08);
+color: #7aa2f7;
+}
+
+#workspaces button.active {
+background-color: #7aa2f7;
+color: #1a1b26;
+min-width: 25px;
+}
+
+#workspaces button.urgent {
+background-color: #f7768e;
+color: #1a1b26;
+}
+
+#window {
+font-weight: bold;
+color: #7aa2f7;
+padding: 0 15px;
+}
+
+#pulseaudio,
+#memory,
+#clock,
+#tray {
+padding: 0 14px;
+margin: 4px 3px;
+border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+#memory {
+color: #9ece6a;
+}
+
+#idle_inhibitor {
+padding: 1px 19px 1px 12px;
+margin: 4px 3px;
+border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+#tray {
+background-color: rgba(0, 0, 0, 0.2);
+}
+#tray > .passive {
+-gtk-icon-effect: dim;
+}
+#tray > .needs-attention {
+-gtk-icon-effect: highlight;
+background-color: #f7768e;
+}
+
+#clock {
+color: #ff9e64;
+font-weight: bold;
+background-color: rgba(255, 158, 100, 0.1);
+border: 1px solid rgba(255, 158, 100, 0.2);
+}
+
+#pulseaudio {
+color: #7aa2f7;
+}
+#pulseaudio.muted {
+color: #565f89;
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+#idle_inhibitor {
+color: #ff9e64;
+}

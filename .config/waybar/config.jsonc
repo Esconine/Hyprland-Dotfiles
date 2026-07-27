@@ -1,0 +1,96 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 20,
+    "spacing": 4,
+    "margin-top": 6,
+    "margin-bottom": -10,
+    "margin-left": 20,
+    "margin-right": 20,
+
+    // LEFT
+    "modules-left": [
+        "idle_inhibitor",
+        "clock",
+        "memory"
+    ],
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "\uf0f4",
+            "deactivated": "\udb83\udfaa"
+        }
+    },
+    "clock": {
+        "timezone": "Local",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "  {:%H:%M}",
+        "format-alt": "  {:%Y-%m-%d}"
+    },
+    "memory": {
+        "format": "  {used:0.1f} / {total:0.1f} GiB",
+        "tooltip": false
+    },
+
+    // CENTER
+    "modules-center": [
+        "custom/rofi",
+        "ext/workspaces",
+        "hyprland/window"
+    ],
+    "custom/rofi": {
+        "format": "\uf0be",
+        "on-click": "rofi -show drun -theme-str 'window { location: north; anchor: north; y-offset: 10px; }'",
+        "tooltip": false
+    },
+    "ext/workspaces": {
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{name}"
+    },
+    "hyprland/window": {
+        "format": "{title}",
+        "separate-outputs": true,
+        "max-length": 15
+    },
+
+    // RIGHT
+    "modules-right": [
+        "tray",
+        "custom/clipboard",
+        "pulseaudio",
+        "custom/power"
+    ],
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+    "custom/clipboard": {
+        "format": "\uf07f",
+        "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' -theme-str 'window { location: northeast; anchor: northeast; y-offset: 10px; x-offset: -10px;}' | cliphist decode | wl-copy",
+        "on-click-right": "cliphist wipe && notify-send 'Clipboard' 'The clipboard is cleared' -i edit-clear",
+        "tooltip": true,
+        "tooltip-format": "Left Click - Open the clipboard\nRight Click - Clear the clipboard"
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{icon}  {volume}% {format_source}",
+        "format-bluetooth": "\uf293 {icon} {volume}% {format_source}",
+        "format-bluetooth-muted": "\udb80\udcb2 {icon} {format_source}",
+        "format-muted": "\ueee8  {format_source}",
+        "format-source": "\uf130 {volume}%",
+        "format-source-muted": "\uf131",
+        "format-icons": {
+            "headphone": "\uf025",
+            "headset": "\uee59",
+            "phone": "\uf095",
+            "default": ["\uf027", "\uf028"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format": "\u23fb",
+        "on-click": "wlogout",
+        "tooltip": false
+    }
+}
