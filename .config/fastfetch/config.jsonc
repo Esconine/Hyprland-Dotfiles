@@ -1,0 +1,123 @@
+{
+    "logo": {
+        "source": "~/.config/fastfetch/logo/fastfetch.png", // or type your distro name in brackets, for example: "source": "arch".
+        // If you want to use your own Fastfetch logo follow these steps:
+        // 1. Delete the existing logo at "~/.config/fastfetch/logo/fastfetch.png" by running this command in the terminal:
+        // rm -rf ~/.config/fastfetch/logo/fastfetch.png
+        // 2. Move your image into the "~/.config/fastfetch/logo" directory and rename it to "fastfetch.png"
+        "height": 19,
+        "width": 40,
+        "padding": {
+            "top": 1,
+            "left": 3
+        },
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "                                                                             "
+        },
+        {
+            "type": "custom",
+            "format": "                              \udb80\udf22  {#34}Hard{#35}ware"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " \udb80\udf22 PC",
+            "keyColor": "blue"
+        },
+        {
+            "type": "cpu",
+            "key": " \uf4bc CPU",
+            "keyColor": "blue"
+        },
+        {
+            "type": "gpu",
+            "key": " \udb80\udeb4 GPU",
+            "keyColor": "blue"
+        },
+        {
+            "type": "display",
+            "key": " \udb80\udf79 Display",
+            "keyColor": "blue"
+        },
+        {
+            "type": "memory",
+            "key": " \uf233 Memory",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "                              \uf007  {#34}Soft{#35}ware"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " \uebc6 OS",
+            "keyColor": "blue"
+        },
+        {
+            "type": "de",
+            "key": " \uf108 DE",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": " \udb84\udcac WM",
+            "keyColor": "blue"
+        },
+        {
+            "type": "lm",
+            "key": " \uf007 LM",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "                                \uf4ab  {#34}Ti{#35}me"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "packages",
+            "key": " \uf4d3 Packages",
+            "keyColor": "blue"
+        },
+        {
+            "type": "disk",
+            "key": " \uf4ab OS Age",
+            "folders": "/",
+            "format": "{days} days",
+            "keyColor": "blue"
+        },
+        {
+            "type": "uptime",
+            "key": " \udb82\udd04 Uptime",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "                                                                             "
+        }
+    ]
+}
