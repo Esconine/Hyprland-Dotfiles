@@ -39,6 +39,28 @@ chmod +x install.sh
 ./install.sh
 ```
 
+## Usage
+
+### Keybinds:
+
+```
+Windows + R           = Open the menu (rofi)
+Windows + T           = Open the terminal (kitty)
+Windows + E           = Open the file manager (dolphin)
+Windows + C           = Open the ide (code-oss)
+Windows + B           = Open the browser (chromium)
+Windows + A           = Open the apps center (bazaar)
+Windows + V           = Open the clipboard (wl-clipboard)
+Windows + L           = Lock the screen (hyprlock)
+Windows + .           = Open the emojis (rofimoji)
+Windows + Esc         = Open the mission center (mission center)
+PrtSc                 = Screenshot the fullscreen to clipboard (hyprshot)
+Windows + Shift + S   = Screenshot the region to ~/Pictures/Screenshots (hyprshot)
+Windows + Alt + Space = Toggle floating window
+Windows + M           = Exit the hyprland (log out to sddm)
+Windows + Q           = Close the window
+```
+
 ## Click on the image to watch a showcase &darr;
 
 [![Watch Showcase](https://github.com/Esconine/Hyprland-Dotfiles/blob/main/.config/hypr/wallpaper.png)](https://youtu.be/5vUjnMQQrkI)
