@@ -23,4 +23,4 @@ for dir in "${CONFIG_DIRS[@]}"; do
     fi
 done
 
-echo "=== Update successfully completed! ==="
+echo "=== Update successfully completed! Please reboot the system. ==="
