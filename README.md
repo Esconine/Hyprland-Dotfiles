@@ -39,3 +39,6 @@ chmod +x install.sh
 ./install.sh
 ```
 
+## Click on the image to watch a showcase &darr;
+
+[![Watch Showcase](https://github.com/Esconine/Hyprland-Dotfiles/blob/main/.config/hypr/wallpaper.png)](https://youtu.be/5vUjnMQQrkI)
