@@ -59,7 +59,15 @@ Windows + Shift + S   = Screenshot the region to ~/Pictures/Screenshots (hyprsho
 Windows + Alt + Space = Toggle floating window
 Windows + M           = Exit the hyprland (log out to sddm)
 Windows + Q           = Close the window
+Windows + 0-9         = Go to the workspace 0-9
+Windows + Shift + 0-9 = Move the window to the workspace 0-9
 ```
+
+### Wallpapers:
+
+> If you want to change the main wallpaper just remove the wallpaper in the directory ~/.config/hypr/wallpaper.png then move your wallpaper to the directory ~/.config/hypr/ and rename it to "wallpaper.png"
+>
+> If you want to change the screenlock wallpaper just remove the wallpaper in the directory ~/.config/hypr/screenlock.png then move your wallpaper to the directory ~/.config/hypr/ and rename it to "screenlock.png"
 
 ## Click on the image to watch a showcase &darr;
 
