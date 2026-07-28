@@ -38,3 +38,5 @@ cd Hyprland-Dotfiles
 chmod +x install.sh
 ./install.sh
 ```
+
+<video src="https://github.com/Esconine/Hyprland-Dotfiles/releases/download/v1.0.0/Showcase.mp4" width="100%" controls></video>
