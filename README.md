@@ -38,5 +38,3 @@ cd Hyprland-Dotfiles
 chmod +x install.sh
 ./install.sh
 ```
-
-<img width="3840" height="2160" alt="wallpaper" src="https://github.com/user-attachments/assets/396e0e79-f746-4f62-bd94-e27e6aa1bbf7" />
